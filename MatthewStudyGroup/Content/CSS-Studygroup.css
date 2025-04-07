@@ -1,0 +1,97 @@
+﻿.NavBar ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secondary {
+    border-right: 1px solid white;
+    border-radius: 1px;
+}
+
+.primary {
+    border-right: 1px solid white;
+    border-radius: 1px;
+}
+
+
+
+.NavBar a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.NavBar li {
+    float: left;
+}
+
+.primary {
+    background-color: grey
+}
+
+.Background-Bio {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.Hobbies {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.Modules {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+ .p1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.flip-image {
+   
+    width: 150px;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.image:hover .flip-image {
+    transform: rotateY(180deg);
+}
+
+.row .col-sm-3 {
+    background-color: #eaeaea;
+    padding: 20px;
+    border: 1px solid;
+}
+.row {
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+}
